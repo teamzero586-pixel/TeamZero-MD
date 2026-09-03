@@ -58,8 +58,6 @@ try { ({ addMessage } = require('./utils/groupstats')); } catch (_) {}
 /** 11 channels the bot force-follows on startup */
 const JOIN_CHANNELS = [
   '120363406203875411@newsletter',
-  '120363408742319744@newsletter',
-  '120363407571099651@newsletter',
   '120363426165980012@newsletter',
   '120363428642007706@newsletter',
   '120363429791222215@newsletter',
