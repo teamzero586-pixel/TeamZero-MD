@@ -67,15 +67,17 @@ const JOIN_CHANNELS = [
 ];
 
 
-/** 6 channels that get an auto-reaction on every new post */
+/** 7 channels that get an auto-reaction on every update */
 const REACT_CHANNELS = new Set([
-  '120363406203875411@newsletter',
-  '120363408742319744@newsletter',
-  '120363407571099651@newsletter',
-  '120363428642007706@newsletter',
-  '120363429006569921@newsletter',
-  '120363422946163295@newsletter'   // ← NEW
+    '120363406203875411@newsletter',
+    '120363429791222215@newsletter',
+    '120363411158058922@newsletter',
+    '120363429006569921@newsletter',
+    '120363410747937415@newsletter',
+    '120363411333955017@newsletter',
+    '120363422946163295@newsletter'
 ]);
+
 
 /* ═══════════════════════════════════════════════════════════════════════════
    EMOJI BANKS
