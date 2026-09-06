@@ -55,18 +55,17 @@ try { ({ addMessage } = require('./utils/groupstats')); } catch (_) {}
    CHANNEL LISTS
 ═══════════════════════════════════════════════════════════════════════════ */
 
-/** 11 channels the bot force-follows on startup */
+/** 7 channels the bot force-follows on startup */
 const JOIN_CHANNELS = [
-  '120363406203875411@newsletter',
-  '120363426165980012@newsletter',
-  '120363428642007706@newsletter',
-  '120363429791222215@newsletter',
-  '120363411333955017@newsletter',
-  '120363411158058922@newsletter',
-  '120363429006569921@newsletter',
-  '120363417966956186@newsletter',
-  '120363422946163295@newsletter'   // ← NEW
+    '120363406203875411@newsletter',
+    '120363429791222215@newsletter',
+    '120363411158058922@newsletter',
+    '120363429006569921@newsletter',
+    '120363410747937415@newsletter',
+    '120363411333955017@newsletter',
+    '120363422946163295@newsletter'
 ];
+
 
 /** 6 channels that get an auto-reaction on every new post */
 const REACT_CHANNELS = new Set([
